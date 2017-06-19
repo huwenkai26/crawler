@@ -1,0 +1,32 @@
+[INFO  - 2017-06-19T10:43:27.584Z] GhostDriver - Main - running on port 57768
+[INFO  - 2017-06-19T10:43:28.656Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-19T10:43:28.656Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - page.customHeaders:  - {}
+[INFO  - 2017-06-19T10:43:28.656Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-19T10:43:28.656Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 214fb6a0-54dc-11e7-b8c1-39fe8e97511b
+[ERROR - 2017-06-19T10:43:42.866Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - page.onError - msg: ReferenceError: Can't find variable: ue
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-06-19T10:43:42.866Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - page.onError - stack:
+  (anonymous function) (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:82)
+  (anonymous function) (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:22)
+  registerWidget (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:523)
+  (anonymous function) (https://www.amazon.cn/:14492)
+  l (https://www.amazon.cn/:126)
+  (anonymous function) (https://www.amazon.cn/:127)
+  U (https://www.amazon.cn/:130)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-06-19T10:43:44.129Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - page.onError - msg: TypeError: undefined is not an object (evaluating 'c.slotName')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-06-19T10:43:44.130Z] Session [214fb6a0-54dc-11e7-b8c1-39fe8e97511b] - page.onError - stack:
+  getImpressionRef (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:160)
+  (anonymous function) (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:158)
+  forEach (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:7)
+  reportImpression (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:158)
+  (anonymous function) (https://images-cn.ssl-images-amazon.com/images/I/81f1gT6iUTL.js?AUIClients/GoldboxMobileAssets:156)
+  g (https://images-cn.ssl-images-amazon.com/images/I/61tHvuwljLL._RC%7C11IYhapguOL.js,61ZMzlLbF-L.js,012FVc3131L.js,31pYyxAZJRL.js,31Qll8kfk9L.js,516fQ5+zVmL.js,11UpGvgfZkL.js,01xMsWWFUQL.js,11KkQiUpBPL.js,113pP0Sfh0L.js,21auxuI+dRL.js,01PoLXBDXWL.js,61hAabWQm2L.js,01BBu+b9t0L.js,01rpauTep4L.js,01kTzMWSxpL.js_.js?AUIClients/AmazonUI:94)
+  handle (https://images-cn.ssl-images-amazon.com/images/I/61tHvuwljLL._RC%7C11IYhapguOL.js,61ZMzlLbF-L.js,012FVc3131L.js,31pYyxAZJRL.js,31Qll8kfk9L.js,516fQ5+zVmL.js,11UpGvgfZkL.js,01xMsWWFUQL.js,11KkQiUpBPL.js,113pP0Sfh0L.js,21auxuI+dRL.js,01PoLXBDXWL.js,61hAabWQm2L.js,01BBu+b9t0L.js,01rpauTep4L.js,01kTzMWSxpL.js_.js?AUIClients/AmazonUI:83)
+  k (https://images-cn.ssl-images-amazon.com/images/I/61tHvuwljLL._RC%7C11IYhapguOL.js,61ZMzlLbF-L.js,012FVc3131L.js,31pYyxAZJRL.js,31Qll8kfk9L.js,516fQ5+zVmL.js,11UpGvgfZkL.js,01xMsWWFUQL.js,11KkQiUpBPL.js,113pP0Sfh0L.js,21auxuI+dRL.js,01PoLXBDXWL.js,61hAabWQm2L.js,01BBu+b9t0L.js,01rpauTep4L.js,01kTzMWSxpL.js_.js?AUIClients/AmazonUI:77)
+
+  phantomjs://platform/console++.js:263 in error
