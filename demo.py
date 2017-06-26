@@ -35,6 +35,7 @@ def sun():
     time.sleep(3)
     if driver.current_url != homeUrl:
         GotosearchPage(driver, handles,linkurl3)
+        GotosearchPage(driver, handles,linkurl3)
     else:
         time.sleep(3)
         GotosearchPage(driver, handles,linkurl3)
@@ -66,11 +67,15 @@ def browseGoods(driver, handles,linkurl3):
     time.sleep(3)
     driver.switch_to_window(handles[0])
     time.sleep(3)
+
+    #指定商家搜索
+    #####################################################################################################################
     try:
         driver.find_element_by_xpath('//*[@id="result_1"]/div/div[2]').click()
     except:
         time.sleep(3)
         driver.find_element_by_xpath('//*[@id="result_1"]/div/div[2]').click()
+    ####################################################################################################################
     js = "var q=document.body.scrollTop=100000"
     driver.execute_script(js)
     time.sleep(5)
@@ -111,5 +116,4 @@ def browseGoods(driver, handles,linkurl3):
 
 
 sun()
-
 
